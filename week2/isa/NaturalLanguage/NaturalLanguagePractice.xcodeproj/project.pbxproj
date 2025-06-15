@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4A64B6FD2DFF336B006AE09C /* NaturalLanguage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A64B6FC2DFF336B006AE09C /* NaturalLanguage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4A3C23F32DFF316F00DC0C9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A3C23E52DFF316E00DC0C9A /* NaturalLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3C23F22DFF316F00DC0C9A /* NaturalLanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalLanguageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3C23FC2DFF316F00DC0C9A /* NaturalLanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalLanguageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C23E52DFF316E00DC0C9A /* NaturalLanguagePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalLanguagePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C23F22DFF316F00DC0C9A /* NaturalLanguagePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalLanguagePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C23FC2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalLanguagePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A64B6FC2DFF336B006AE09C /* NaturalLanguage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguage.framework; path = System/Library/Frameworks/NaturalLanguage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A64B6FD2DFF336B006AE09C /* NaturalLanguage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				4A3C23E72DFF316E00DC0C9A /* NaturalLanguage */,
 				4A3C23F52DFF316F00DC0C9A /* NaturalLanguageTests */,
 				4A3C23FF2DFF316F00DC0C9A /* NaturalLanguageUITests */,
+				4A64B6FB2DFF336B006AE09C /* Frameworks */,
 				4A3C23E62DFF316E00DC0C9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,19 +92,27 @@
 		4A3C23E62DFF316E00DC0C9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A3C23E52DFF316E00DC0C9A /* NaturalLanguage.app */,
-				4A3C23F22DFF316F00DC0C9A /* NaturalLanguageTests.xctest */,
-				4A3C23FC2DFF316F00DC0C9A /* NaturalLanguageUITests.xctest */,
+				4A3C23E52DFF316E00DC0C9A /* NaturalLanguagePractice.app */,
+				4A3C23F22DFF316F00DC0C9A /* NaturalLanguagePracticeTests.xctest */,
+				4A3C23FC2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4A64B6FB2DFF336B006AE09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A64B6FC2DFF336B006AE09C /* NaturalLanguage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A3C23E42DFF316E00DC0C9A /* NaturalLanguage */ = {
+		4A3C23E42DFF316E00DC0C9A /* NaturalLanguagePractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A3C24062DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguage" */;
+			buildConfigurationList = 4A3C24062DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguagePractice" */;
 			buildPhases = (
 				4A3C23E12DFF316E00DC0C9A /* Sources */,
 				4A3C23E22DFF316E00DC0C9A /* Frameworks */,
@@ -110,16 +125,16 @@
 			fileSystemSynchronizedGroups = (
 				4A3C23E72DFF316E00DC0C9A /* NaturalLanguage */,
 			);
-			name = NaturalLanguage;
+			name = NaturalLanguagePractice;
 			packageProductDependencies = (
 			);
 			productName = NaturalLanguage;
-			productReference = 4A3C23E52DFF316E00DC0C9A /* NaturalLanguage.app */;
+			productReference = 4A3C23E52DFF316E00DC0C9A /* NaturalLanguagePractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A3C23F12DFF316F00DC0C9A /* NaturalLanguageTests */ = {
+		4A3C23F12DFF316F00DC0C9A /* NaturalLanguagePracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A3C24092DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguageTests" */;
+			buildConfigurationList = 4A3C24092DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguagePracticeTests" */;
 			buildPhases = (
 				4A3C23EE2DFF316F00DC0C9A /* Sources */,
 				4A3C23EF2DFF316F00DC0C9A /* Frameworks */,
@@ -133,16 +148,16 @@
 			fileSystemSynchronizedGroups = (
 				4A3C23F52DFF316F00DC0C9A /* NaturalLanguageTests */,
 			);
-			name = NaturalLanguageTests;
+			name = NaturalLanguagePracticeTests;
 			packageProductDependencies = (
 			);
 			productName = NaturalLanguageTests;
-			productReference = 4A3C23F22DFF316F00DC0C9A /* NaturalLanguageTests.xctest */;
+			productReference = 4A3C23F22DFF316F00DC0C9A /* NaturalLanguagePracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4A3C23FB2DFF316F00DC0C9A /* NaturalLanguageUITests */ = {
+		4A3C23FB2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A3C240C2DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguageUITests" */;
+			buildConfigurationList = 4A3C240C2DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguagePracticeUITests" */;
 			buildPhases = (
 				4A3C23F82DFF316F00DC0C9A /* Sources */,
 				4A3C23F92DFF316F00DC0C9A /* Frameworks */,
@@ -156,11 +171,11 @@
 			fileSystemSynchronizedGroups = (
 				4A3C23FF2DFF316F00DC0C9A /* NaturalLanguageUITests */,
 			);
-			name = NaturalLanguageUITests;
+			name = NaturalLanguagePracticeUITests;
 			packageProductDependencies = (
 			);
 			productName = NaturalLanguageUITests;
-			productReference = 4A3C23FC2DFF316F00DC0C9A /* NaturalLanguageUITests.xctest */;
+			productReference = 4A3C23FC2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A3C23E02DFF316E00DC0C9A /* Build configuration list for PBXProject "NaturalLanguage" */;
+			buildConfigurationList = 4A3C23E02DFF316E00DC0C9A /* Build configuration list for PBXProject "NaturalLanguagePractice" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +215,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A3C23E42DFF316E00DC0C9A /* NaturalLanguage */,
-				4A3C23F12DFF316F00DC0C9A /* NaturalLanguageTests */,
-				4A3C23FB2DFF316F00DC0C9A /* NaturalLanguageUITests */,
+				4A3C23E42DFF316E00DC0C9A /* NaturalLanguagePractice */,
+				4A3C23F12DFF316F00DC0C9A /* NaturalLanguagePracticeTests */,
+				4A3C23FB2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +273,12 @@
 /* Begin PBXTargetDependency section */
 		4A3C23F42DFF316F00DC0C9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A3C23E42DFF316E00DC0C9A /* NaturalLanguage */;
+			target = 4A3C23E42DFF316E00DC0C9A /* NaturalLanguagePractice */;
 			targetProxy = 4A3C23F32DFF316F00DC0C9A /* PBXContainerItemProxy */;
 		};
 		4A3C23FE2DFF316F00DC0C9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A3C23E42DFF316E00DC0C9A /* NaturalLanguage */;
+			target = 4A3C23E42DFF316E00DC0C9A /* NaturalLanguagePractice */;
 			targetProxy = 4A3C23FD2DFF316F00DC0C9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,6 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4UPGV82J6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4UPGV82J6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -456,7 +473,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalLanguage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaturalLanguage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalLanguagePractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaturalLanguagePractice";
 			};
 			name = Debug;
 		};
@@ -474,7 +491,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalLanguage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaturalLanguage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalLanguagePractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaturalLanguagePractice";
 			};
 			name = Release;
 		};
@@ -513,7 +530,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A3C23E02DFF316E00DC0C9A /* Build configuration list for PBXProject "NaturalLanguage" */ = {
+		4A3C23E02DFF316E00DC0C9A /* Build configuration list for PBXProject "NaturalLanguagePractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3C24042DFF316F00DC0C9A /* Debug */,
@@ -522,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A3C24062DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguage" */ = {
+		4A3C24062DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguagePractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3C24072DFF316F00DC0C9A /* Debug */,
@@ -531,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A3C24092DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguageTests" */ = {
+		4A3C24092DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguagePracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3C240A2DFF316F00DC0C9A /* Debug */,
@@ -540,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A3C240C2DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguageUITests" */ = {
+		4A3C240C2DFF316F00DC0C9A /* Build configuration list for PBXNativeTarget "NaturalLanguagePracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A3C240D2DFF316F00DC0C9A /* Debug */,
