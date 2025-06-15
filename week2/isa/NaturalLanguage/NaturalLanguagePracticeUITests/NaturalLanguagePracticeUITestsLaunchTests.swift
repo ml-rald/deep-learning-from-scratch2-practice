@@ -1,13 +1,6 @@
-//
-//  NaturalLanguageUITestsLaunchTests.swift
-//  NaturalLanguageUITests
-//
-//  Created by 우정아 on 6/16/25.
-//
-
 import XCTest
 
-final class NaturalLanguageUITestsLaunchTests: XCTestCase {
+final class NaturalLanguagePracticeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

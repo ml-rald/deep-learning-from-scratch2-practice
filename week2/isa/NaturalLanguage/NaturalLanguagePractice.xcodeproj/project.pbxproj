@@ -35,19 +35,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4A3C23E72DFF316E00DC0C9A /* NaturalLanguage */ = {
+		4A3C23E72DFF316E00DC0C9A /* NaturalLanguagePractice */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NaturalLanguage;
+			path = NaturalLanguagePractice;
 			sourceTree = "<group>";
 		};
-		4A3C23F52DFF316F00DC0C9A /* NaturalLanguageTests */ = {
+		4A3C23F52DFF316F00DC0C9A /* NaturalLanguagePracticeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NaturalLanguageTests;
+			path = NaturalLanguagePracticeTests;
 			sourceTree = "<group>";
 		};
-		4A3C23FF2DFF316F00DC0C9A /* NaturalLanguageUITests */ = {
+		4A3C23FF2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NaturalLanguageUITests;
+			path = NaturalLanguagePracticeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -81,9 +81,9 @@
 		4A3C23DC2DFF316E00DC0C9A = {
 			isa = PBXGroup;
 			children = (
-				4A3C23E72DFF316E00DC0C9A /* NaturalLanguage */,
-				4A3C23F52DFF316F00DC0C9A /* NaturalLanguageTests */,
-				4A3C23FF2DFF316F00DC0C9A /* NaturalLanguageUITests */,
+				4A3C23E72DFF316E00DC0C9A /* NaturalLanguagePractice */,
+				4A3C23F52DFF316F00DC0C9A /* NaturalLanguagePracticeTests */,
+				4A3C23FF2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests */,
 				4A64B6FB2DFF336B006AE09C /* Frameworks */,
 				4A3C23E62DFF316E00DC0C9A /* Products */,
 			);
@@ -123,7 +123,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4A3C23E72DFF316E00DC0C9A /* NaturalLanguage */,
+				4A3C23E72DFF316E00DC0C9A /* NaturalLanguagePractice */,
 			);
 			name = NaturalLanguagePractice;
 			packageProductDependencies = (
@@ -146,7 +146,7 @@
 				4A3C23F42DFF316F00DC0C9A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4A3C23F52DFF316F00DC0C9A /* NaturalLanguageTests */,
+				4A3C23F52DFF316F00DC0C9A /* NaturalLanguagePracticeTests */,
 			);
 			name = NaturalLanguagePracticeTests;
 			packageProductDependencies = (
@@ -169,7 +169,7 @@
 				4A3C23FE2DFF316F00DC0C9A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4A3C23FF2DFF316F00DC0C9A /* NaturalLanguageUITests */,
+				4A3C23FF2DFF316F00DC0C9A /* NaturalLanguagePracticeUITests */,
 			);
 			name = NaturalLanguagePracticeUITests;
 			packageProductDependencies = (

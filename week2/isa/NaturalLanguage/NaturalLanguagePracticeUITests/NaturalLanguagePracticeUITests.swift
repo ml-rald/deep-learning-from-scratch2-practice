@@ -1,13 +1,6 @@
-//
-//  NaturalLanguageUITests.swift
-//  NaturalLanguageUITests
-//
-//  Created by 우정아 on 6/16/25.
-//
-
 import XCTest
 
-final class NaturalLanguageUITests: XCTestCase {
+final class NaturalLanguagePracticeUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
