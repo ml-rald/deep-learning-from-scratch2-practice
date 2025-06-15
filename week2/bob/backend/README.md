@@ -86,3 +86,9 @@ from mxnet.gluon.contrib.rnn import LSTMPCell
 # TO-BE
 from mxnet.gluon.rnn import LSTMPCell
 ```
+
+## 서버 시작
+
+```bash
+fastapi dev main.py --host 0.0.0.0
+```
