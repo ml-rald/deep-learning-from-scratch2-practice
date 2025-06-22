@@ -46,10 +46,7 @@ class SpeechRecognizer: ObservableObject {
 
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
 
-        guard let inputNode = audioEngine.inputNode as Optional else {
-            transcribedText = "입력 노드 오류"
-            return
-        }
+        let inputNode = audioEngine.inputNode
 
         guard let recognitionRequest = recognitionRequest else {
             transcribedText = "음성 요청 생성 실패"
