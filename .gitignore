@@ -1,2 +1,9 @@
+# Python
 .venv/
 __pycache__/
+
+# Xcode User settings
+xcuserdata/
+
+# MacOS
+.DS_Store
