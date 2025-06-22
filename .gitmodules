@@ -1,0 +1,3 @@
+[submodule "week2/bob/backend/pytorch-bert-crf-ner"]
+	path = week2/bob/backend/pytorch-bert-crf-ner
+	url = https://github.com/eagle705/pytorch-bert-crf-ner
