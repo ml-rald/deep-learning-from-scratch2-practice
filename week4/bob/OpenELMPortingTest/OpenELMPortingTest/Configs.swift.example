@@ -1,0 +1,14 @@
+//
+//  Configs.swift
+//  OpenELMPortingTest
+//
+//  Created by 임영택 on 6/29/25.
+//
+
+import Foundation
+
+struct Configs {
+    static let hfToken = "YOUR_TOKEN"
+    static let maxSequenceLength = 120
+    static let maxModelLength = 128
+}
