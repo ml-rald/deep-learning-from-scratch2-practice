@@ -17,7 +17,7 @@ class OpenELMModel: ObservableObject {
     @Published var generatedText = ""
     
     func loadTokenizer() async throws {
-        tokenizer = try! await AutoTokenizer.from(pretrained: "meta-llama/Llama-2-7b-hf", hubApi: .init(hfToken: Configs.hfToken))
+        tokenizer = try! await AutoTokenizer.from(pretrained: "meta-llama/Llama-2-7b-hf", hubApi: .init(hfToken: Configs.hfToken, useOfflineMode: false))
     }
     
     func encode(_ tokens: [Int]) throws -> OpenELMInput {
