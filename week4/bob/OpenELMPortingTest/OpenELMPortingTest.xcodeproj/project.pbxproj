@@ -33,9 +33,33 @@
 		3D1041412E10FDFE00EECA42 /* OpenELMPortingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenELMPortingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3D179E072E1120D3000F2BAE /* Exceptions for "OpenELMPortingTest" folder in "OpenELMPortingTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Configs.swift.example,
+			);
+			target = 3D1041292E10FDFD00EECA42 /* OpenELMPortingTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		3D179E082E1120D3000F2BAE /* Exceptions for "OpenELMPortingTest" folder in "Compile Sources" phase from "OpenELMPortingTest" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 3D1041262E10FDFD00EECA42 /* Sources */;
+			membershipExceptions = (
+				Configs.swift.example,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3D10412C2E10FDFD00EECA42 /* OpenELMPortingTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3D179E072E1120D3000F2BAE /* Exceptions for "OpenELMPortingTest" folder in "OpenELMPortingTest" target */,
+				3D179E082E1120D3000F2BAE /* Exceptions for "OpenELMPortingTest" folder in "Compile Sources" phase from "OpenELMPortingTest" target */,
+			);
 			path = OpenELMPortingTest;
 			sourceTree = "<group>";
 		};
