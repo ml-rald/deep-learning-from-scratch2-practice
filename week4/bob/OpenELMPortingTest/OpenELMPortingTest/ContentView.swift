@@ -14,6 +14,7 @@ struct ContentView: View {
     @State var userInput: String = ""
     @State var isError: Bool = false
     @State var isPrepared: Bool = false
+    @FocusState var textFieldIsFocused: Bool
     
     var body: some View {
         Group {
@@ -21,6 +22,11 @@ struct ContentView: View {
                 List {
                     Section {
                         TextField("입력하세요", text: $userInput)
+                        .onSubmit {
+                            runButtonDidTap()
+                        }
+                        .focused($textFieldIsFocused)
+                        
                         Button {
                             runButtonDidTap()
                         } label: {
@@ -53,6 +59,7 @@ struct ContentView: View {
 
 extension ContentView {
     private func runButtonDidTap() {
+        textFieldIsFocused = false
         inference(for: userInput)
     }
     
