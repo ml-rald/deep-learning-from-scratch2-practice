@@ -9,5 +9,6 @@ import Foundation
 
 struct Configs {
     static let hfToken = "YOUR_TOKEN"
-    static let maxSequenceLength = 64
+    static let maxSequenceLength = 120
+    static let maxModelLength = 128
 }

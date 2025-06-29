@@ -95,6 +95,11 @@ class OpenELMModel: ObservableObject {
         
         // 파이썬의 for i in range(max_sequence_length) 구현
         for i in 0..<maxSequenceLength {
+            if inputIds.count >= Configs.maxModelLength {
+                print("Reached model maximum length (\(Configs.maxModelLength)). Stopping generation.")
+                break
+            }
+            
             print("Generation step \(i + 1)/\(maxSequenceLength)")
             
             do {
